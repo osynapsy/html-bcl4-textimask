@@ -1,0 +1,25 @@
+{
+    "name": "osynapsy/bcl4-textimask",
+    "version": "1.0",
+    "homepage": "http://www.osynapsy.net/html-bcl4-textimask",
+    "type": "library",
+    "description": "Osynapsy TextIMask component",
+    "keywords": ["Osynapsy", "TextIMask component"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pietro Celeste",
+            "email": "p.celeste@osynapsy.net",
+            "homepage": "https://github.com/osynapsy/osynapsy-html-bcl4-textimask/wiki"
+        }
+    ],
+    "require": {
+        "php" : ">=7.2.0",
+        "osynapsy/osynapsy-bcl4" : "1.*"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Osynapsy\\Bcl4\\TextIMask\\": "src/"
+        }
+    }
+}
