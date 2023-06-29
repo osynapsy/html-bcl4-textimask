@@ -41,7 +41,7 @@ class TextIMaskBox extends TextBox
         $this->requireJs('bcl4/textimask/script.js');
     }
 
-    public function setIMask($maskId)
+    public function setMask($maskId)
     {
         $this->validateMaskId($maskId);
         $mask = $this->imask[$maskId];
