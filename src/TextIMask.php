@@ -1,14 +1,14 @@
 <?php
-namespace Osynapsy\Bcl4\TextIMaskBox;
+namespace Osynapsy\Bcl4\TextIMask;
 
-use Osynpasy\Bcl4\TextBox;
+use Osynapsy\Bcl4\TextBox;
 
 /**
  * Description of TextIMaskBox
  *
  * @author peter
  */
-class TextIMaskBox extends TextBox
+class TextIMask extends TextBox
 {
     const IMASK_INTEGER = 10;
     const IMASK_NUMBER = 11;
